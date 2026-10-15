@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Vatican","name_es":"Vaticano","name_en":"Vatican City","iso_3166_2":"VA-X01~","type":null,"type_en":null,"adm0_a3":"VAT","admin":"Vatican","latitude":41.9034,"longitude":12.4534},"geometry":{"type":"Polygon","coordinates":[[[12.4527,41.903],[12.454,41.9039],[12.454,41.9028],[12.4527,41.903]]]}}]}

@@ -1,0 +1,23 @@
+{
+ "version": 8,
+ "name": "relieve",
+ "sources": {
+  "relieve": {
+   "type": "raster",
+   "tiles": [
+    "https://cdn.jsdelivr.net/gh/{USER}/{REPO}@main/estilos/raster/relieve/{z}/{x}/{y}.jpg"
+   ],
+   "tileSize": 512,
+   "minzoom": 0,
+   "maxzoom": 4,
+   "attribution": "NASA Blue Marble/Black Marble, Natural Earth, AWS Terrain Tiles"
+  }
+ },
+ "layers": [
+  {
+   "id": "relieve",
+   "type": "raster",
+   "source": "relieve"
+  }
+ ]
+}

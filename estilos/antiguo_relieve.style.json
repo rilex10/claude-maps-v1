@@ -1,0 +1,23 @@
+{
+ "version": 8,
+ "name": "antiguo_relieve",
+ "sources": {
+  "antiguo_relieve": {
+   "type": "raster",
+   "tiles": [
+    "https://cdn.jsdelivr.net/gh/{USER}/{REPO}@main/estilos/raster/antiguo_relieve/{z}/{x}/{y}.jpg"
+   ],
+   "tileSize": 512,
+   "minzoom": 0,
+   "maxzoom": 4,
+   "attribution": "NASA Blue Marble/Black Marble, Natural Earth, AWS Terrain Tiles"
+  }
+ },
+ "layers": [
+  {
+   "id": "antiguo_relieve",
+   "type": "raster",
+   "source": "antiguo_relieve"
+  }
+ ]
+}

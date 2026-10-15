@@ -1,0 +1,23 @@
+{
+ "version": 8,
+ "name": "tiempo_profundo",
+ "sources": {
+  "tiempo_profundo": {
+   "type": "raster",
+   "tiles": [
+    "https://cdn.jsdelivr.net/gh/{USER}/{REPO}@main/estilos/raster/tiempo_profundo/{z}/{x}/{y}.jpg"
+   ],
+   "tileSize": 512,
+   "minzoom": 0,
+   "maxzoom": 4,
+   "attribution": "NASA Blue Marble/Black Marble, Natural Earth, AWS Terrain Tiles"
+  }
+ },
+ "layers": [
+  {
+   "id": "tiempo_profundo",
+   "type": "raster",
+   "source": "tiempo_profundo"
+  }
+ ]
+}
