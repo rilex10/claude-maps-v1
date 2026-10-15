@@ -1,7 +1,7 @@
 # Mapas CDN — recursos para videos de mapas animados
 
 Repositorio público pensado para servirse por **jsDelivr**:
-`https://cdn.jsdelivr.net/gh/{USER}/{REPO}@main/<ruta>`
+`https://cdn.jsdelivr.net/gh/rilex10/claude-maps-v1@main/<ruta>`
 
 Claude (o cualquier página) solo necesita leer `catalogo_recursos.json` (~12 KB) y luego carga cada archivo por URL desde el navegador (CORS abierto).
 
@@ -22,7 +22,7 @@ Claude (o cualquier página) solo necesita leer `catalogo_recursos.json` (~12 KB
 
 ## Antes de publicar
 1. Crea el repo público en GitHub y sube esto.
-2. Reemplaza `{USER}`/`{REPO}` en `estilos/*.style.json` (o hazlo en el código al cargar: `fetch(url).then(r=>r.text()).then(t=>JSON.parse(t.replaceAll('{USER}',u).replaceAll('{REPO}',r)))`).
+2. Reemplaza `rilex10`/`claude-maps-v1` en `estilos/*.style.json` (o hazlo en el código al cargar: `fetch(url).then(r=>r.text()).then(t=>JSON.parse(t.replaceAll('rilex10',u).replaceAll('claude-maps-v1',r)))`).
 3. Sube `catalogo_recursos.json` al Project Knowledge de Claude.
 4. Para caché estable, publica un tag (`v1.0`) y usa `@v1.0` en lugar de `@main`. jsDelivr limita a 20 MB por archivo; aquí todos son menores.
 

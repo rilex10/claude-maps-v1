@@ -5,7 +5,7 @@
   "antiguo_relieve": {
    "type": "raster",
    "tiles": [
-    "https://cdn.jsdelivr.net/gh/{USER}/{REPO}@main/estilos/raster/antiguo_relieve/{z}/{x}/{y}.jpg"
+    "https://cdn.jsdelivr.net/gh/rilex10/claude-maps-v1@main/estilos/raster/antiguo_relieve/{z}/{x}/{y}.jpg"
    ],
    "tileSize": 512,
    "minzoom": 0,
